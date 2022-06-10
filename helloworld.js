@@ -7,5 +7,5 @@ function hello(){
 
 hello()
 
-exports.hello = hello
+exports.hello = 'Hello World'
 
