@@ -11,5 +11,5 @@ console.log(hello);
 
 // hello()
 
- exports= hello
+ module.exports= hello
 
