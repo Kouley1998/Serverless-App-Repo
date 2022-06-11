@@ -1,8 +1,8 @@
 // code your `hello` function here!
 
- function hello(){
-   return "Hello World"
-}
+function hello() {
+    // your code
+    return "Hello World"
+} 
 
- exports= hello;
-
+exports.hello = hello;
