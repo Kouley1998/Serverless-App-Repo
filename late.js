@@ -7,12 +7,20 @@
 
 
 
-function running_late(){
-    const date = new Date()
-    console.log(date + "Its too early")
+function running_late(date){
+    const date = new Date(date)
+    const hours= date.getHours();
+    const minutes= date.get.Minutes();
+    const seconds= date.get.Seconds();
+
+    if (hours > 21){
+        return "It is Late"
+    }
+    else{
+        return "It is still early!"
+    }
+
   
 }
 
-running_late()
-
-module.exports = running_late
+exports.running_late = running_late; 
